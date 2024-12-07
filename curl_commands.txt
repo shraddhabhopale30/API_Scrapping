@@ -1,0 +1,15 @@
+DIN Verification curl Command:
+curl -X POST "https://www.mca.gov.in/mcafoportal/showDINVerification.do" \
+     -H "User-Agent: Mozilla/5.0" \
+     -d "din=09313226"
+
+Director Company Details curl Command:
+curl -X GET "https://www.mca.gov.in/mcafoportal/showDirectorCompanyDetails.do?din=09313226"
+
+Company Details by CIN curl Command:
+curl -X GET "https://www.mca.gov.in/mcafoportal/showCompanyDetails.do?cin=U72900BR2021PTC053947"
+
+GSTIN Verification curl Command:
+curl -X POST "https://services.gst.gov.in/services/searchtp" \
+     -H "Content-Type: application/x-www-form-urlencoded" \
+     -d "gstin=09ALVPY1138Q1ZW"
